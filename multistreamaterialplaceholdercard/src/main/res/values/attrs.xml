@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PlaceHolderMaterialCardView">
+        <attr name="addGradient" format="boolean" />
+        <attr name="placeHolderType" format="enum">
+            <enum name="stream_place_holder" value="0" />
+            <enum name="empty_place_holder" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <item name="placeholder" type="id"/>
+</resources>

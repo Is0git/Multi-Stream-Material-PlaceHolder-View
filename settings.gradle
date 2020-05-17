@@ -1,0 +1,3 @@
+rootProject.name='Multi-Stream-Material-PlaceHolder-Card'
+include ':app'
+include ':multistreamaterialplaceholdercard'
