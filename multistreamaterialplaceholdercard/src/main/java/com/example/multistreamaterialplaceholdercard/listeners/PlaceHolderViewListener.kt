@@ -1,5 +1,8 @@
 package com.example.multistreamaterialplaceholdercard.listeners
 
-interface PlaceHolderViewListener<T> {
-    fun onClick(item: T)
+import android.view.View
+
+interface PlaceHolderViewListener {
+    fun onClick(position: Int, itemView: View)
+    fun onCircleClick(position: Int, itemView: View)
 }
